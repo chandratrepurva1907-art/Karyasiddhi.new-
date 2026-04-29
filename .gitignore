@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# It's usually best practice not to track the live database or data files in git
+# so that deploying doesn't overwrite your production data with local test data.
+# However, if you want your empty user_data.json to be deployed initially, you might 
+# leave it out of here. For now, we will ignore it. 
+# user_data.json
